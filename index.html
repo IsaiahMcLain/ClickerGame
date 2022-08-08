@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>JS Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div id="title">Clicker Game</div>
+        
+        <div id="Object">
+            <button id="clickableObject" onclick="increment()"></button>
+        </div>
+        
+        <div id="counter">
+            <span>Amount:<span id="counterAmount"></span></span>
+        </div>
+        
+        <div class="itemButtons">
+            <div>
+                <button id="buyableItem1" onclick="objectBought()">Buy Me Cost = <span id="buyableItem1Cost">5</span></button>
+                <div id="buyableItem1Count"></div>
+            </div>
+            <div>
+                <button id="buyableItem2" onclick="objectBought2()">Buy Me Cost = <span id="buyableItem2Cost">50</span></button>
+                <div id="buyableItem2Count"></div>
+            </div>
+            <div>
+                <button id="buyableItem3" onclick="objectBought3()">Buy Me Cost = <span id="buyableItem3Cost">500</span></button>
+                <div id="buyableItem3Count"></div>
+            </div>
+            <div>
+                <button id="buyableItem4" onclick="objectBought4()">Buy Me Cost = <span id="buyableItem4Cost">5000</span></button>
+                <div id="buyableItem4Count"></div>
+            </div>
+            <div>
+                <button id="buyableItem5" onclick="objectBought5()">Buy Me Cost = <span id="buyableItem5Cost">10000</span></button>
+                <div id="buyableItem5Count"></div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
